@@ -4,26 +4,13 @@ This module allows you to dynamically adjust configuration of your application v
 
 ## Installation
 
-You have to add the repository to your `composer.json` file:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@gitlab.trans-dev.loc:devops/zf-local-config-module.git"
-        }
-    ]
-}
-```
-
-...and require module with Composer:
+Require module with Composer:
 
 ```bash
 composer require rstgroup/zf-local-config-module
 ```
 
-The last step is adding module to ZF system configuration (`config/application.config.php`):
+The next step is adding module to ZF system configuration (`config/application.config.php`):
 ```php
 return [
     'modules' => [
