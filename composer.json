@@ -1,6 +1,7 @@
 {
     "name": "rstgroup/zf-local-config-module",
     "description": "Module responsible for adding custom config.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Artur Wolny",
